@@ -19,7 +19,7 @@ const Teaser: FC<TeaserProps> = (args: TeaserProps) => {
       </a>
       <div className="p-5 flex-grow">
         <a href="#">
-          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+          <h5 className="mb-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             {args.title}
           </h5>
         </a>
