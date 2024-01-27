@@ -2,7 +2,7 @@ import {Meta, StoryObj} from '@storybook/react'
 import Teaser from './Teaser'
 
 const meta = {
-  title: 'Teaser',
+  title: 'Components/Teaser',
   component: Teaser,
   tags: ['autodocs'],
   argTypes: {},

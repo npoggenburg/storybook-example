@@ -2,10 +2,10 @@ import Button from './Button'
 import {Meta, StoryObj} from '@storybook/react'
 
 const meta = {
-  title: 'Button',
+  title: 'Components/Button',
   component: Button,
   tags: ['autodocs'],
-  argTypes: {},
+  argTypes: {}
 } satisfies Meta<typeof Button>
 
 export default meta
@@ -17,6 +17,12 @@ export const Default: Story = {
     label: 'Default button',
     variant: 'default',
   },
+  parameters: {
+    design: {
+      type: "figspec",
+      url: "https://www.figma.com/file/Q0DfBGQVjY00xhnsFlFyDM/Storybook-example?type=design&node-id=1-6&mode=design&t=tQ1Hs3bWTpiIx4mL-4",
+    }
+  }
 }
 
 export const Primary: Story = {

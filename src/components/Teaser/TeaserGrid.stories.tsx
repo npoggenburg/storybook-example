@@ -2,7 +2,7 @@ import {Meta, StoryObj} from '@storybook/react'
 import TeaserGrid from "./TeaserGrid";
 
 const meta = {
-  title: 'TeaserGrid',
+  title: 'Components/TeaserGrid',
   component: TeaserGrid,
   tags: ['autodocs'],
   argTypes: {},
