@@ -1,5 +1,8 @@
-import { Canvas, Meta } from '@storybook/blocks';
+import { Canvas, Meta, Controls, Story } from '@storybook/blocks';
 import * as ButtonStories from '../components/Button/Button.stories';
+
+
+<Meta title="OpenSpace/Overview" />
 
 
 # Willkommen zum Storybook Open Space
@@ -55,6 +58,7 @@ Storybook provides a workshop to build UIs in isolation. It helps you develop ha
 
 ## Testing
 
+* CI Integration
 * Changes
 * Design Abnahme ohne ohne Backend Code zu schreiben
 
@@ -86,7 +90,11 @@ ChatGPT bitten einen Parameter hinzuzufügen
 
 ## Komponenten in Dokumentation einbungen
 
+Canvas:
 <Canvas of={ButtonStories.Default} />
+
+Direkte Einbindung einer Komponente
+<Story of={ButtonStories.Default} />
 
 ## Anima
 
