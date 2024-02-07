@@ -1,5 +1,6 @@
 import {Meta, StoryObj} from '@storybook/react'
 import Teaser from './Teaser'
+import {withGrid} from "../../../.storybook/decorators";
 
 const meta = {
   title: 'Components/Teaser',

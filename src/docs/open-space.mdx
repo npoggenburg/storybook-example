@@ -4,32 +4,81 @@ import * as ButtonStories from '../components/Button/Button.stories';
 
 # Willkommen zum Storybook Open Space
 
-## Themen
+Storybook is a frontend workshop for building UI components and pages in isolation.
 
 * Was ist Storybook
-* Struktur / Ts / React
-* Beispiele: Button / Teaser
-* Dark/Light Mode / Hintergründe
+* Beispiel: Button / Teaser
+* Beispiel: Decorator
 * States / Properties
+* Dark/Light Mode / Hintergründe
+* Struktur / Ts / React
 * Aktive / Wip Komponenten / Treeshaking / Ordner oder suffix
 * Testen und Prüfen mit `Chromatic`
 * Figma Integration
 * Erstellen einer neuen Komponente
 * mdx
+* mdx helper / color /typography
 * UI Theming
 * Anima
 
-## Installation
+## Was ist Storybook
 
-https://tailwindcss.com/docs/guides/vite
+Storybook provides a workshop to build UIs in isolation. It helps you develop hard-to-reach states and edge cases without needing to run the whole app.
 
-https://storybook.js.org/docs/get-started/install
+* Build UI components and pages in isolation
+* Mock hard-to-reach edge cases as stories
+* Supercharge your workflow with addons
+* Drop the finished UI components into your app
+* Test UIs with less effort and no flake
+* Document UI for your team to reuse
+
+## Beispiele
+
+* Button
+* Teaser
+* Teaser Grid
+
+## States, Properties und Backgrounds
+
+## Design Integration / HTML output
+
+## Helper
+
+* Farben
+* Typografie
+
+## Technik
+
+* Beliebiges JavaScript Framework
+* TypeScript
+* Separate Integration dank eigener *.stories.tsx Dateien
+
+## Testing
+
+* Changes
+* Design Abnahme ohne ohne Backend Code zu schreiben
 
 ## Eine neue Komponente erstellen
 
 `npx generate-react-cli component Pagination`
 
 `https://flowbite.com/docs/components/pagination/`
+
+## MDX
+
+* Mitarbeit von Designern / PMs etc.
+
+## Andere Storybooks
+
+https://style.monday.com/?path=/story/buttons-button--success-state
+
+https://master--628d031b55e942004ac95df1.chromatic.com/?path=/docs/components-dropdown--default&globals=storybook_fluentui-react-addon_dir:ltr#truncated-value
+
+## Installation
+
+https://tailwindcss.com/docs/guides/vite
+
+https://storybook.js.org/docs/get-started/install
 
 Design file hinzufügen
 
@@ -39,12 +88,7 @@ ChatGPT bitten einen Parameter hinzuzufügen
 
 <Canvas of={ButtonStories.Default} />
 
-## Was bringt uns das ganze?
+## Anima
 
-* Das gesamte Frontend wird unabhängig vom CMS gebaut und kann z. B. für andere Projekte und andere CMS (Wir bauen gerade inen Wordpress Blog..) genutzt werden.
-* Dezentralisierung: Frontend Entwikler bauen Frontend, Integratoren integrieren, Devs entwickeln
-* Grafiker können dank mdx ein Changelog führen und müssen maximal git pull/add/commit/push + Markup kennne
-* Es ist sofort ersichtlich, welche Komponenten kein, oder ein veraltetes Layout im Design Tool haben.
-* Für kleinere Projekte eher overkill.
-* Die Integration von Tailwind ermöglicht copy/paste in alle Projekte, die auf diesem Storybook basieren.
-* Kleine Anpassungen werden aufwändiger. Da ggf. die benötigte CSS Klasse nicht im CSS File ist.
+Export von Komponentent direkt zu Figma:
+https://www.youtube.com/watch?v=Tmh3f0ZHbwg
