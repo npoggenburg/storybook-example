@@ -38,3 +38,10 @@ export const Secondary: Story = {
     variant: 'secondary',
   },
 }
+
+export const OpenSpaceButton: Story = {
+  args: {
+    label: 'OpenSacee button',
+    variant: 'secondary',
+  },
+}

@@ -8,7 +8,7 @@ interface ButtonProps {
 const Button: FC<ButtonProps> = (args: ButtonProps) => {
   const variantClasses: Record<ButtonProps['variant'], string> = {
     default:
-      'text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 focus:outline-none',
+      'text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-8 py-2.5 focus:outline-none',
     primary:
       'text-white bg-yellow-500 hover:bg-yellow-600 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 focus:outline-none',
     secondary:
